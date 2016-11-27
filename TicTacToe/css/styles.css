@@ -1,0 +1,217 @@
+body {
+  background-image: url("http://4.bp.blogspot.com/-OpFqYklSD-k/UQcCXvRs9UI/AAAAAAAAQs8/uD3Mc7RhLl4/s1600/Chalkboard-background.jpg");
+  background-repeat: no-repeat;
+  font-family: 'Reenie Beanie', cursive;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.select-text {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 70px;
+}
+
+.marker-select-img {
+  width: 30px;
+}
+
+.score-img {
+  width: 15px;
+}
+
+.score-text {
+  font-size: 30px;
+}
+
+
+#board {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#board-svg {
+  text-align: center;
+  margin-top: 5%;
+}
+
+svg rect:hover {
+  cursor: pointer;
+}
+
+#modes-and-markers {
+  color: white;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 50px;
+}
+
+.marker-select-img {
+  padding-bottom: 9px;
+  margin-left: -2%;
+}
+
+.marker-select-img:hover {
+  cursor: pointer;
+  border-bottom: 2px solid white;
+}
+#scores {
+  color: white;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 50px;
+  margin-left: -2px;
+}
+
+
+#modes {
+  font-size: 20px;
+}
+
+
+.mode:hover {
+  cursor: pointer;
+  color: #CCC;
+}
+
+
+
+#winner-messages {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.winner-img {
+  width: 70px;
+  margin-right: 10px;
+}
+
+.winner-message {
+  color: white;
+  font-size: 40px;
+  font-family: 'Reenie Beanie', cursive;
+}
+
+.button-span {
+  margin: 15px;
+}
+
+button {
+  width: 80px;
+}
+
+.button-text {
+  font-size: 12px;
+  text-align: center;
+}
+
+
+
+/************************************
+          media queries
+ ***********************************/
+
+@media (min-width: 270px) {
+
+  .marker-select-img {
+    width: 40px;
+  }
+
+  .score-img {
+    width: 30px;
+  }
+
+  .score-text {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 350px) {
+  #modes {
+    font-size: 30px;
+  }
+
+  .marker-select-img {
+    width: 55px;
+  }
+
+  .score-text {
+    font-size: 50px;
+  }
+
+  .winner-img {
+    width: 100px;
+    margin-right: 15px;
+  }
+
+  .winner-message {
+    font-size: 70px;
+  }
+
+  button {
+    width: 110px;
+    font-size: 100px;
+  }
+
+  .button-text {
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 430px) {
+  .select-text {
+    font-size: 60px;
+  }
+
+  #modes {
+    font-size: 43px;
+  }
+
+  .marker-select-img {
+    width: 70px;
+  }
+
+  .score-img {
+    width: 40px;
+  }
+  .score-text {
+    font-size: 60px;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  #board-svg {
+    margin-top: 15%;
+  }
+
+  #scores {
+    margin-top: 10%;
+  }
+
+  .score-img {
+    width: 50px;
+  }
+
+  #score-o-img {
+    margin-left: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+
+
+  .icon-block {
+    margin-left: 15%;
+  }
+
+}
+
+@media (min-width: 1280) {
+  body {
+    background-image: url("http://www.lannathai.ca/wp-content/uploads/2014/12/bigstock-Blank-Chalkboard-Blackboard-T-50893607.jpg");
+    background-repeat: no-repeat;
+  }
+}
