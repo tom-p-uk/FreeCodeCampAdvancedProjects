@@ -1,0 +1,54 @@
+body {
+  background: #F66956;
+}
+
+.controls {
+  margin-top: 10%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.label {
+  color: #333333;
+}
+
+.length {
+  color: white;
+  font-family: "Century Gothic", Arial;
+  padding: 0 12px 0 12px;
+}
+
+i {
+  margin: 0px 15px 0px 15px;
+}
+
+i:hover {
+  color: white;
+  cursor: pointer;
+}
+
+#icons {
+  margin-left: 20%;
+}
+
+#play-pause, #repeat {
+  font-size: 30px;
+}
+
+.col-centered {
+float: none;
+margin: 0 auto;
+}
+
+#countdown {
+  text-align: center;
+}
+
+.controls-lower {
+  text-align: center;
+  margin-top: 30px;
+  margin-left: -5%;
+}
+
+.icons {
+  margin: 7px;
+}
