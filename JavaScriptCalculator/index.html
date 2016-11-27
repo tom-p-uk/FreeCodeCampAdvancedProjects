@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <title>JavaScript Calculator</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <div id="calculator">
+      <div class="container" id="main">
+        <div class="row" id="display-and-border">
+          <div class="col-xs-12">
+            <div id="border">
+              <div id="display">
+                <span id="output">0</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" id="row-one">
+          <div class="col-xs-9">
+            <div class="row">
+              <div class="col-xs-3 input control" id="ac">
+                <span id="ac-text">AC</span>
+              </div>
+              <div class="col-xs-3 input control" id="ce">
+                <span id="ce-text">CE</span>
+              </div>
+              <div class="col-xs-3 input operator" id="negative">
+                <span id="negative-text">±</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-3 input right-col operator" id="divide">
+              <span id="divide-text">÷</span>
+          </div>
+        </div>
+        <div class="row" id="row-two">
+          <div class="col-xs-9">
+            <div class="row">
+              <div class="col-xs-3 input number" id="seven">
+                  <span id="seven-text">7</span>
+              </div>
+              <div class="col-xs-3 input number" id="eight">
+                  <span id="eight-text">8</span>
+              </div>
+              <div class="col-xs-3 input number" id="nine">
+                  <span id="nine-text">9</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-3 input right-col operator" id="multiply">
+              <span id="multiply-text">×</span>
+          </div>
+        </div>
+        <div class="row" id="row-three">
+          <div class="col-xs-9">
+            <div class="row">
+              <div class="col-xs-3 input number" id="four">
+                  <span id="four-text">4</span>
+              </div>
+              <div class="col-xs-3 input number" id="five">
+                  <span id="five-text">5</span>
+              </div>
+              <div class="col-xs-3 input number" id="six">
+                  <span id="six-text">6</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-3 input right-col operator" id="minus">
+              <span id="minus-text">-</span>
+          </div>
+        </div>
+        <div class="row" id="row-four">
+          <div class="col-xs-9">
+              <div class="row" id="row-four-one">
+                <div class="col-xs-4 input number" id="one">
+                  <span id="one-text">1</span>
+                </div>
+                <div class="col-xs-4 input number" id="two">
+                  <span id="two-text">2</span>
+                </div>
+                <div class="col-xs-4 input number" id="three">
+                  <span id="three-text">3</span>
+                </div>
+              </div>
+              <div class="row" id="row-four-two">
+                <div class="col-xs-4 input number" id="zero">
+                  <span id="zero-text">0</span>
+                </div>
+                <div class="col-xs-4 input" id="point">
+                  <span id="point-text">.</span>
+                </div>
+                <div class="col-xs-4 input" id="equals">
+                  <span id="equals-text">=</span>
+                </div>
+              </div>
+          </div>
+          <div class="col-xs-3 input right-col operator" id="plus">
+              <span id="plus-text">+</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>
