@@ -632,7 +632,7 @@ function miniMax(board, player) {
 
 
 
-// function that finds the best move for AI player O and appends an O there
+// function that finds the best move for AI player and appends an X or O there
 function aiMove(player) {
   var move = checkBestMove(board, player);
   var rectId = move[0].toString() + move[1].toString();
@@ -654,7 +654,7 @@ function aiMove(player) {
 
 
 
-// function that adds winning player to score array, updates scores html and shows winning player msg if board state is termianl
+// function that adds winning player to score array, updates scores html and shows winning player msg if board state is terminal
 function declareWinner() {
   if (checkWinner(board, false) !== undefined) {
 
